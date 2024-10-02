@@ -1,7 +1,7 @@
 # Define Student Class
 student_info = {}
 
-menu = int(input("Would You like to \n1. Add student \n2. Add grade \n3. Update grade \n4. View student grade \n5. calaculate avarage grade \n6. Exit Program: "))
+# menu = int(input("Would You like to \n1. Add student \n2. Add grade \n3. Update grade \n4. View student grade \n5. calaculate avarage grade \n6. Exit Program \nSelect one of the following options: "))
     
 
 def add_student():
@@ -27,6 +27,7 @@ def add_grade():
         student_info[name]["grade"]["science"] = sci_grade
     
     print(f"Grades for {name} updated: {student_info[name]['grade']}")
+    # print(student_info)
 
 def update_grade():
 
