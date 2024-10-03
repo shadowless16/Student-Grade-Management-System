@@ -33,7 +33,6 @@ def update_grade():
 
     name = input("Enter Student's Name: ").capitalize()
 
-    # Check if student exists
     if name not in student_info:
         print(f"Student {name} does not exist")
     else:
@@ -53,7 +52,6 @@ def view_student_grade():
     if name not in student_info:
         print(f"Student {name} does not exist.")
     else:
-        # Display the student's grades
         print(f"Grades for {name}: {student_info[name]['grade']}")
 
 
